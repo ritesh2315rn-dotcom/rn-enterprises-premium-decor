@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RN Enterprises | Premium Decor</title>
+<meta name="description" content="RN Enterprises Premium Decor - False ceiling lighting, TV wall design and premium interior decor.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="#home">RN <span>ENTERPRISES</span><small>PREMIUM DECOR</small></a>
+  <button class="menu" onclick="toggleMenu()">☰</button>
+  <nav id="nav">
+    <a href="#home">Home</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">RN ENTERPRISES • PREMIUM DECOR</p>
+    <h1>Make Your Space<br><span>Beautiful & Premium</span></h1>
+    <p>Modern false ceiling lighting, luxury TV wall designs and premium decor solutions for homes, offices and commercial spaces.</p>
+    <div class="buttons">
+      <a class="btn gold" href="tel:7709117694">Call Now</a>
+      <a class="btn outline" href="#gallery">View Designs</a>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <p class="eyebrow">OUR SERVICES</p>
+  <h2>Premium Decor Solutions</h2>
+  <div class="cards">
+    <article><div class="icon">✦</div><h3>False Ceiling</h3><p>Modern POP and gypsum ceiling designs with elegant lighting.</p></article>
+    <article><div class="icon">◈</div><h3>Ceiling Lighting</h3><p>LED strips, spotlights, profile lights and designer lighting.</p></article>
+    <article><div class="icon">▣</div><h3>TV Wall Design</h3><p>Luxury TV units with marble, fluted panels, wood and LED accents.</p></article>
+    <article><div class="icon">◇</div><h3>Premium Decor</h3><p>Custom interior feature walls and stylish finishing for your space.</p></article>
+  </div>
+</section>
+
+<section id="gallery" class="section dark">
+  <p class="eyebrow">OUR WORK</p>
+  <h2>Design Inspiration</h2>
+  <div class="gallery">
+    <div class="gallery-card one"><span>Luxury TV Wall</span></div>
+    <div class="gallery-card two"><span>Premium False Ceiling</span></div>
+    <div class="gallery-card three"><span>Designer Lighting</span></div>
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <div>
+    <p class="eyebrow">WHY RN ENTERPRISES</p>
+    <h2>Designed for the way you live.</h2>
+    <p>We create modern, elegant and practical decor solutions with attention to lighting, finishing and overall visual balance.</p>
+  </div>
+  <div class="stats"><div><b>100%</b><small>Custom Design</small></div><div><b>Premium</b><small>Finishing</small></div><div><b>Expert</b><small>Installation</small></div></div>
+</section>
+
+<section id="contact" class="contact">
+  <p class="eyebrow">GET IN TOUCH</p>
+  <h2>Let's design your space.</h2>
+  <p>Call RN Enterprises for a quotation and site discussion.</p>
+  <a class="btn gold big" href="tel:7709117694">📞 7709117694</a>
+  <a class="whatsapp" href="https://wa.me/917709117694">WhatsApp Us</a>
+</section>
+</main>
+
+<footer>© 2026 RN Enterprises • Premium Decor</footer>
+<script>
+function toggleMenu(){document.getElementById('nav').classList.toggle('show')}
+document.querySelectorAll('#nav a').forEach(a=>a.addEventListener('click',()=>document.getElementById('nav').classList.remove('show')));
+</script>
+</body>
+</html>
